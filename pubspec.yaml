@@ -1,0 +1,18 @@
+name: ai_creator
+publish_to: 'none'
+description: AI Creator - Arabic AI image creator using open-source Hugging Face Spaces.
+version: 1.1.0+2
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+  http: ^1.2.2
+  shared_preferences: ^2.3.3
+
+flutter:
+  uses-material-design: true
